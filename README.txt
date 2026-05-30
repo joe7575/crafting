@@ -105,3 +105,7 @@ player in the reverse craft.
 
 Don't use a recipe that has a "group:" input with this, because obviously that
 can't be turned into an output. The mod will assert if you try to do this.
+
+
+Wichtig: in minetest.conf muss crafting_import_default_recipes = false sein,
+sonst bleibt die Mod minutenlang hängen, weil alle Rezepte geladen werden.
